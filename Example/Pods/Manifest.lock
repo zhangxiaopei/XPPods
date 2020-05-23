@@ -1,0 +1,16 @@
+PODS:
+  - XPPods (0.1.0)
+
+DEPENDENCIES:
+  - XPPods (from `../`)
+
+EXTERNAL SOURCES:
+  XPPods:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XPPods: 8719b614c302c809ae0ddb896cb9d70a7b3b3899
+
+PODFILE CHECKSUM: fc99dec6f4521403866ae0103acc22861199a95a
+
+COCOAPODS: 1.6.1

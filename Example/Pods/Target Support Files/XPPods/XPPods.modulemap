@@ -1,0 +1,6 @@
+framework module XPPods {
+  umbrella header "XPPods-umbrella.h"
+
+  export *
+  module * { export * }
+}

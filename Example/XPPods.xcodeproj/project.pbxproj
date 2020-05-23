@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		042AF4490CFBCA4CC61076E9 /* Pods_XPPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XPPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7652EFF70E38B094FCEABE /* Pods_XPPods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XPPods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B672A4C3B7E347DB394F565 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4B672A4C3B7E347DB394F565 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XPPods_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPPods_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +62,9 @@
 		6D064184F808ABC8C5F07E31 /* Pods-XPPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPPods_Tests.release.xcconfig"; path = "Target Support Files/Pods-XPPods_Tests/Pods-XPPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6F525424203E895D98511C53 /* Pods-XPPods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPPods_Example.debug.xcconfig"; path = "Target Support Files/Pods-XPPods_Example/Pods-XPPods_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		74B13D8241F1E5119C1807E6 /* XPPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XPPods.podspec; path = ../XPPods.podspec; sourceTree = "<group>"; };
+		74B13D8241F1E5119C1807E6 /* XPPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XPPods.podspec; path = ../XPPods.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		750125F45E6B05F88FBC1B3E /* Pods-XPPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPPods_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XPPods_Tests/Pods-XPPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7A31BF49295A5B995F67A938 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7A31BF49295A5B995F67A938 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F474D61AD2271D41006AEDE9 /* Pods-XPPods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPPods_Example.release.xcconfig"; path = "Target Support Files/Pods-XPPods_Example/Pods-XPPods_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				750125F45E6B05F88FBC1B3E /* Pods-XPPods_Tests.debug.xcconfig */,
 				6D064184F808ABC8C5F07E31 /* Pods-XPPods_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
